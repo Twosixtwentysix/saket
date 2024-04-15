@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Play YouTube Video</title>
+</head>
+<body>
+
+<button onclick="playVideo()">Play YouTube Video at 1:44</button>
+
+<script>
+function playVideo() {
+  // Replace 'VIDEO_ID' with the actual YouTube video ID
+  var videoId = 'hOf7m31ZvgQ';
+  var startTime = 118; // 1 minute and 44 seconds = 104 seconds
+  window.open('https://www.youtube.com/watch?v=' + videoId + '&t=' + startTime, '_blank');
+}
+</script>
+
+</body>
+</html>
